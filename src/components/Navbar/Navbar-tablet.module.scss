@@ -1,0 +1,31 @@
+.Navbar {
+  .explore {
+    display: flex;
+  }
+  .search {
+    width: 17px;
+    height: 17px;
+    margin-right: 16px;
+  }
+  .user {
+    .name {
+      font-size: 13px;
+      font-weight: 700;
+      color: rgba(242, 244, 246, 0.9);
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+    .avatar {
+      width: 25px;
+      height: 25px;
+      margin: 0px 8px 0px 8px;
+    }
+    .drop {
+      display: block;
+    }
+  }
+}

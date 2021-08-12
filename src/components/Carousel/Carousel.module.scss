@@ -1,0 +1,19 @@
+.Carousel {
+  .bigSwiper {
+    height: 27vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-button-prev{
+      color: red;
+    }
+  }
+
+  .bigSwiper > .swiper-button-prev{
+    color: red;
+  }
+}

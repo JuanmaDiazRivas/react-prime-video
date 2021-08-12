@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  font-family: ember, Arial, sans-serif !important;
+  background-color: #0f171e;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+@font-face {
+  font-family: "ember";
+  src: local("ember"), url("assets/fonts/ember.ttf") format("opentype");
+}
