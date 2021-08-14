@@ -1,18 +1,20 @@
-.Navbar {
+& {
+  height: 3vh;
   .explore {
     display: flex;
   }
   .search {
-    width: 17px;
-    height: 17px;
+    width: 22px;
+    height: 22px;
     margin-right: 16px;
   }
   .user {
     .name {
-      font-size: 13px;
+      font-size: 15px;
       font-weight: 700;
-      color: rgba(242, 244, 246, 0.9);
+      color: rgba(242,244,246,.7);
       cursor: pointer;
+      display: flex;
 
       &:hover {
         color: white;
@@ -20,8 +22,8 @@
     }
 
     .avatar {
-      width: 25px;
-      height: 25px;
+      width: 32px;
+      height: 32px;
       margin: 0px 8px 0px 8px;
     }
     .drop {

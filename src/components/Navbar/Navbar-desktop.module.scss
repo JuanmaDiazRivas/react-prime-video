@@ -1,9 +1,47 @@
-.Navbar{
+&{
     padding: 12px 32px;
+
+    img {
+        height: 40px;
+        width: 130px;
+        max-width: 100%;
+        max-height: unset;
+      }
+
     .menu{
         display: flex;
+        align-items: center;
+        ul {
+          width: 100%;
+          display: flex;
+          list-style-type: none;
+          padding-left: 15px;
+          margin-left: 0;
+          li {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 17px;
+            color: rgba(242, 244, 246, 0.9);
+            margin: 7px;
+    
+            &:first-child {
+              border-bottom: 1px solid white;
+              color: white;
+            }
+    
+            &:hover {
+              color: white;
+            }
+          }
+        }
     }
     .search{
         margin-right: 16px;
+    }
+    .explore{
+        display: none;
     }
 }

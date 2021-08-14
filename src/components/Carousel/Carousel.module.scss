@@ -1,3 +1,6 @@
+@import "src/sass/variables";
+@import "src/sass/mixins";
+
 .Carousel {
   .bigSwiper {
     height: 27vh;
@@ -8,12 +11,16 @@
       object-fit: cover;
     }
 
-    .swiper-button-prev{
-      color: red;
+    div[class*="swiper-button-prev"], div[class*="swiper-button-next"]{
+      display: none;
     }
   }
 
-  .bigSwiper > .swiper-button-prev{
-    color: red;
+  @media (min-width: $breakpoint-tablet) {
+    @import "Carousel-tablet.module.scss";
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    @import "Carousel-desktop.module.scss";
   }
 }

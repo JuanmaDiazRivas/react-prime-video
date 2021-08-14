@@ -1,0 +1,28 @@
+& {
+  .bigSwiper {
+    height:30vh;
+
+    div[class*="swiper-button-prev"],
+    div[class*="swiper-button-next"] {
+      display: block;
+      width: 30px;
+      height: 34px;
+      background-size: 60%;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      transition: opacity 0.5s ease;
+
+      &:after {
+        content: "";
+      }
+    }
+
+    div[class*="swiper-button-prev"] {
+      background-image: url("/assets/svg/arrow-left.svg");
+    }
+
+    div[class*="swiper-button-next"] {
+      background-image: url("/assets/svg/arrow-right.svg");
+    }
+  }
+}
