@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Carousel />
+      <div className="bigCarousel">
+        <Carousel />
+      </div>
     </div>
   );
 }

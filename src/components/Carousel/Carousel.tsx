@@ -19,7 +19,7 @@ const Carousel = () => (
   <div className={styles.Carousel}>
     <Swiper
       className={styles.bigSwiper}
-      loop={true}
+      loop={false}
       navigation={true}
       spaceBetween={30}
       autoplay={{
@@ -46,7 +46,7 @@ function getSlides() {
   for (let i = 1; i < 6; i++) {
     swiperSlides.push(
       <SwiperSlide>
-        <img src={require(`src/assets/img/carousel${i}.jpeg`).default} />
+        <img src={require(`src/assets/img/carousel/carousel${i}.jpeg`).default} />
       </SwiperSlide>
     );
   }

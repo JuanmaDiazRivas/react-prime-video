@@ -17,6 +17,10 @@
       }
     }
 
+    div[class*="swiper-button-disabled"]{
+        display: none;
+    }
+
     div[class*="swiper-button-prev"] {
       background-image: url("/assets/svg/arrow-left.svg");
     }
