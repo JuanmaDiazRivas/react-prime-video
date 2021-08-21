@@ -1,0 +1,21 @@
+&{
+    margin-left: 48px;
+
+    .carouselSectionHeader{
+        flex-flow: row;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .primeBlue{
+            margin-top: 0px;
+            margin-right: 5px;
+            height:24px;
+        }
+
+        .sectionTitle{
+            h2,span{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+& {
+  .bigSwiper,
+  .mediumSwiper {
+    div[class*="swiper-button-prev"],
+    div[class*="swiper-button-next"] {
+      height: 100%;
+    }
+    .primeTag {
+      background: url("/assets/svg/primeTagDesktop.svg") center no-repeat;
+      height: 24px;
+      width: 50px;
+    }
+  }
+
+  .bigSwiper {
+    div[class*="swiper-button-prev"],
+    div[class*="swiper-button-next"] {
+      width: 45px;
+      background-size: 40%;
+    }
+    div[class*="swiper-button-prev"] {
+      &:hover,
+      &:active {
+        background: url("/assets/svg/arrow-left.svg") center no-repeat;
+      }
+    }
+    div[class*="swiper-button-next"] {
+      &:hover,
+      &:active {
+        background: url("/assets/svg/arrow-right.svg") center no-repeat;
+      }    }
+    div[class*="swiperSlide"] {
+      padding-left: 48px;
+      padding-right: 48px;
+    }
+    div[class*="swiper-pagination"] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    span[class*="swiper-pagination-bullet"] {
+      display: block;
+      margin-right: 7px;
+      background-color: white;
+      width: 13px;
+      height: 13px;
+      box-shadow: 1px 1px 4px black;
+      overflow: hidden;
+      transition: height 0.3s ease;
+      border-radius: 50%;
+      opacity: 0.5;
+    }
+    span[class*="swiper-pagination-bullet-active"] {
+      background-color: #fff;
+      opacity: 1;
+    }
+  }
+}
