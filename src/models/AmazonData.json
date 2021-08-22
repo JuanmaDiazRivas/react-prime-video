@@ -35,7 +35,7 @@
             },
             "image": {
               "alternateText": "Actos caóticos aleatorios",
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_Nine_Perfect_Strangers_S1_Launch/d0fc723a-5442-4dfc-ba03-8e351ce477be._UR1280,600_.jpeg"
+              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_Nine_Perfect_Strangers_S1_Launch/d0fc723a-5442-4dfc-ba03-8e351ce477be._UR1280,600_.jpegçhttps://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_Nine_Perfect_Strangers_S1_Launch/3e0095bf-7428-44f0-93b9-5a57b0bd2aaa._UR3000,600_.jpeg"
             },
             "link": {
               "url": "/detail/0P7BPKEYWWXV32ZQG8VTHT5SMA/ref=atv_hm_hom_1_c_T5Cdfi_AISCpQ_1_1"
@@ -96,7 +96,7 @@
             },
             "image": {
               "alternateText": "\nLa casa del caracol",
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_La_Casa_del_Caracol_Launch/78657cb7-34d7-48b4-90bb-97b51fdb458f._UR1280,600_.jpeg"
+              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_La_Casa_del_Caracol_Launch/78657cb7-34d7-48b4-90bb-97b51fdb458f._UR1280,600_.jpegçhttps://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_La_Casa_del_Caracol_Launch/3fdd8a9a-7694-471d-9cb4-869a7e65b6c5._UR3000,600_.jpeg"
             },
             "link": {
               "url": "/detail/0J1DTO11OPZ829V0KV9WCGIMHL/ref=atv_hm_hom_1_c_T5Cdfi_C3fMyq_1_2"
@@ -158,7 +158,7 @@
             },
             "image": {
               "alternateText": "Modern Love Temporada 2",
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_Modern_Love_S2_Launch/98cf9fe6-e3a4-43db-8031-45a3c2ed4253._UR1280,600_.jpeg"
+              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_Modern_Love_S2_Launch/98cf9fe6-e3a4-43db-8031-45a3c2ed4253._UR1280,600_.jpegçhttps://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_Modern_Love_S2_Launch/4f8695bd-c625-4cd1-9b76-415dfe10ae44._UR3000,600_.jpeg"
             },
             "link": {
               "url": "/detail/0S8BXLZARRJ4WPTP94VA5R95FL/ref=atv_hm_hom_1_c_T5Cdfi_S6RSAE_1_3"
@@ -194,68 +194,6 @@
           },
           {
             "contentMaturityRating": {
-              "rating": "16",
-              "title": "(jóvenes adultos)."
-            },
-            "entitlements": [],
-            "filterEntitled": false,
-            "hasSubtitles": true,
-            "hideThisAction": {
-              "endpoint": {
-                "partialURL": "/api/hideThis/ref=atv_exfb_ht_sf_hide_mv",
-                "query": {
-                  "tag": "Hide",
-                  "titleId": "amzn1.dv.gti.1cbbc942-d38f-ad3d-784c-ce4e3a9612c6",
-                  "token": "g26Up05ov3OmTRcz3I+oKiJFpLaQ/dVHN3WObcD9yXYqAAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ==",
-                  "titleType": "Movie"
-                }
-              },
-              "hasTimer": false,
-              "tag": "Hide",
-              "text": "Ocultar esta película"
-            },
-            "hoverInfo": {
-              "canHover": false
-            },
-            "image": {
-              "alternateText": " Abismo",
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_Black_Water_Abyss_Evergreen/21474bc1-f2ab-4c21-a94d-17f0e4a83ded._UR1280,600_.jpeg"
-            },
-            "link": {
-              "url": "/detail/0GUUK7LE7QM7WW1K0CHFMHXUPY/ref=atv_hm_hom_1_c_T5Cdfi_a5OdbG_1_4"
-            },
-            "messages": {
-              "infoboxes": [],
-              "offers": []
-            },
-            "properties": {},
-            "releaseYear": "2020",
-            "runtime": "1 h 38 min",
-            "synopsis": "Mientras una tormenta tropical se aproxima, un grupo de amigos decide explorar un remoto sistema de cuevas en las profundidades de los bosques del norte de Australia convencidos de que allí abajo estarán a salvo. Pero las cuevas comienzan a inundarse y las tensiones van en aumento a medida que los niveles de oxígeno disminuyen y el grupo se ve desorientado y atrapado.",
-            "title": "Abismo",
-            "titleID": "amzn1.dv.gti.1cbbc942-d38f-ad3d-784c-ce4e3a9612c6",
-            "watchlistAction": {
-              "ajaxEnabled": true,
-              "endpoint": {
-                "partialURL": "/api/watchlistToggle/ref=atv_sf_wtls_add_mv",
-                "query": {
-                  "returnUrl": "/storefront/ref=atv_sf_wl_tog_sign_in",
-                  "tag": "Add",
-                  "titleType": "movie",
-                  "titleID": "0GUUK7LE7QM7WW1K0CHFMHXUPY",
-                  "token": "g/G60c9AtRvFH+8PKEKn8UVdOvNXTRT+Gk/52rb5+QW9AAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ=="
-                }
-              },
-              "formatCode": "mv",
-              "tag": "Add",
-              "text": {
-                "attrs": {},
-                "string": "Añadir a Mi lista"
-              }
-            }
-          },
-          {
-            "contentMaturityRating": {
               "rating": "18",
               "title": "(Adultos)."
             },
@@ -281,7 +219,7 @@
             },
             "image": {
               "alternateText": "Mira Power Book II: Ghost (Parte 2) con STARZPLAY en Prime Video Channels.",
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_3P_Superhero_Starzplay_Power_Book_II_Ghost_Part2/ed603b66-bada-48e7-858c-27f1c5522ac1._UR1280,600_.jpg"
+              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_3P_Superhero_Starzplay_Power_Book_II_Ghost_Part2/ed603b66-bada-48e7-858c-27f1c5522ac1._UR1280,600_.jpgçhttps://m.media-amazon.com/images/G/01/digital/video/sonata/ES_3P_Superhero_STARZPLAY_The_Act_SH/7fd1509d-2036-4c29-9041-619f9563582a._UR3000,600_.jpg"
             },
             "link": {
               "url": "/detail/0R1EXQAK75UZEBJQRAWQRO0ECB/ref=atv_hm_hom_1_c_T5Cdfi_UF03X7_1_5"
@@ -350,7 +288,7 @@
               "canHover": false
             },
             "image": {
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_GO_Luca_EST/863e6678-de7e-40c9-94b2-1dedac73c3c3._UR1280,600_.jpeg"
+              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_GO_Luca_EST/863e6678-de7e-40c9-94b2-1dedac73c3c3._UR1280,600_.jpegçhttps://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_GO_Luca_EST/dfd214b1-8e3b-4262-b68e-97be96844f8a._UR3000,600_.jpeg"
             },
             "link": {
               "url": "/detail/0QOFU05GGFQMIV8A0NERVJYAY2/ref=atv_hm_hom_1_c_T5Cdfi_TuqHpi_1_6"
@@ -396,68 +334,6 @@
           },
           {
             "contentMaturityRating": {
-              "rating": "13",
-              "title": "(adolescentes)."
-            },
-            "entitlements": [],
-            "filterEntitled": false,
-            "hasSubtitles": true,
-            "hideThisAction": {
-              "endpoint": {
-                "partialURL": "/api/hideThis/ref=atv_exfb_ht_sf_hide_mv",
-                "query": {
-                  "tag": "Hide",
-                  "titleId": "amzn1.dv.gti.66bb3947-bfad-df23-56c9-b549b4657138",
-                  "token": "gxifoGrLogV1Wws0uVP9Nv5lHgF5nQZZjS1gug5buQoXAAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ==",
-                  "titleType": "Movie"
-                }
-              },
-              "hasTimer": false,
-              "tag": "Hide",
-              "text": "Ocultar esta película"
-            },
-            "hoverInfo": {
-              "canHover": false
-            },
-            "image": {
-              "alternateText": "El rey de Zamunda",
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/EU6_Coming_2_America_Evergreen/fdf8035e-88c8-4d27-bd48-550162a5dbd3._UR1280,600_.jpg"
-            },
-            "link": {
-              "url": "/detail/0L8K53PWM510Q2Y1NJ1PR9DL4O/ref=atv_hm_hom_1_c_T5Cdfi_4BUsJD_1_7"
-            },
-            "messages": {
-              "infoboxes": [],
-              "offers": []
-            },
-            "properties": {},
-            "releaseYear": "2021",
-            "runtime": "1 h 48 min",
-            "synopsis": "¡Akeem y Senmi han vuelto! Desde el exuberante reino de Zamunda, el recién coronado rey Akeem (Eddie Murphy) y su leal confidente Semmi (Arsenio Hall) emprenden una nueva y divertidísima aventura que les hará atravesar el mundo, desde su gran país en África hasta el barrio de Queens, en Nueva York, donde todo empezó.",
-            "title": "El rey de Zamunda",
-            "titleID": "amzn1.dv.gti.66bb3947-bfad-df23-56c9-b549b4657138",
-            "watchlistAction": {
-              "ajaxEnabled": true,
-              "endpoint": {
-                "partialURL": "/api/watchlistToggle/ref=atv_sf_wtls_add_mv",
-                "query": {
-                  "returnUrl": "/storefront/ref=atv_sf_wl_tog_sign_in",
-                  "tag": "Add",
-                  "titleType": "movie",
-                  "titleID": "0L8K53PWM510Q2Y1NJ1PR9DL4O",
-                  "token": "g0pmBNJHuJExAJutv7TH4JuJmaQFyH51goN0GMnhjWOuAAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ=="
-                }
-              },
-              "formatCode": "mv",
-              "tag": "Add",
-              "text": {
-                "attrs": {},
-                "string": "Añadir a Mi lista"
-              }
-            }
-          },
-          {
-            "contentMaturityRating": {
               "rating": "16",
               "title": "(jóvenes adultos)."
             },
@@ -482,7 +358,7 @@
               "canHover": false
             },
             "image": {
-              "url": "https://m.media-amazon.com/images/G/01/digital/video/sonata/TVOD_Hero_SiYoFueraRico_VOD_ES/9bc3379d-487f-4b32-80f5-c5c97b409d7f._UR1280,600_.jpg"
+              "url": "https://m.media-amazon.com/images/G/01/digital/video/sonata/TVOD_Hero_SiYoFueraRico_VOD_ES/9bc3379d-487f-4b32-80f5-c5c97b409d7f._UR1280,600_.jpgçhttps://m.media-amazon.com/images/G/01/digital/video/sonata/TVOD_Hero_SiYoFueraRico_VOD_ES/0885fdab-10db-4a73-8446-657c05428d1f._UR3000,600_.jpg"
             },
             "link": {
               "url": "/detail/0MRY5RHGHVL8T1U1CE5T4CTTP9/ref=atv_hm_hom_1_c_T5Cdfi_bF1LkI_1_8"
@@ -553,7 +429,7 @@
             },
             "image": {
               "alternateText": "Ver Normal People con STARZPLAY en Prime Video Channels.",
-              "url": "https://m.media-amazon.com/images/G/01/digital/video/sonata/ES_3P_Superhero_STARZPLAY_Normal_People/8802480a-1557-421e-9200-d5f0a75f1bd9._UR1280,600_.jpg"
+              "url": "https://m.media-amazon.com/images/G/01/digital/video/sonata/ES_3P_Superhero_STARZPLAY_Normal_People/8802480a-1557-421e-9200-d5f0a75f1bd9._UR1280,600_.jpgçhttps://m.media-amazon.com/images/S/sonata-images-prod/ES_3P_Superhero_Starz_The_Stand/be674e7e-d381-4514-bc89-06ae079e58fd._UR3000,600_.jpg"
             },
             "link": {
               "url": "/detail/0FWQ809XCTRBBY23119KFTFYX7/ref=atv_hm_hom_1_c_T5Cdfi_TI1gZ4_1_9"
@@ -598,67 +474,6 @@
           },
           {
             "contentMaturityRating": {
-              "rating": "16",
-              "title": "(jóvenes adultos)."
-            },
-            "entitlements": [],
-            "filterEntitled": false,
-            "hasSubtitles": true,
-            "hideThisAction": {
-              "endpoint": {
-                "partialURL": "/api/hideThis/ref=atv_exfb_ht_sf_hide_seas",
-                "query": {
-                  "tag": "Hide",
-                  "titleId": "amzn1.dv.gti.70b5bdfc-032c-92dc-7159-22755fee3aed",
-                  "token": "g70Y9CkmMisSz9lxlpSnYYXhVBUiPqHWGKFYB/7Xn6T3AAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ==",
-                  "titleType": "Season"
-                }
-              },
-              "hasTimer": false,
-              "tag": "Hide",
-              "text": "Ocultar esta temporada"
-            },
-            "hoverInfo": {
-              "canHover": false
-            },
-            "image": {
-              "alternateText": "The Man in the High Castle - Temporada 4",
-              "url": "https://m.media-amazon.com/images/G/01/digital/video/sonata/FRITES_Hero_TMITHC_S4_Triumphant_Belle_Evergreen/cfb7adc5-1c87-4966-aded-f8278fe46e7f._UR1280,600_.jpg"
-            },
-            "link": {
-              "url": "/detail/0LTTRFTWMZXER0OFWQFGG2MFOT/ref=atv_hm_hom_1_c_T5Cdfi_ionvUe_1_10"
-            },
-            "messages": {
-              "infoboxes": [],
-              "offers": []
-            },
-            "properties": {},
-            "releaseYear": "2019",
-            "synopsis": "En la culminante temporada final, Estados Unidos será testigo de la rebelión en ambas costas mientras Juliana y Wyatt unen fuerzas con una insurgencia negra liderada por Bell Mallory. Takeshi Kido se verá obligado a vérselas con antiguos demonios, y las vidas de John y Helen Smith cambiarán para siempre después de que Smith atraviese el portal de Die Nebenwelt y recorra el camino no transitado.",
-            "title": "El hombre en el castillo - 4.ª temporada",
-            "titleID": "amzn1.dv.gti.70b5bdfc-032c-92dc-7159-22755fee3aed",
-            "watchlistAction": {
-              "ajaxEnabled": true,
-              "endpoint": {
-                "partialURL": "/api/watchlistToggle/ref=atv_sf_wtls_add_seas",
-                "query": {
-                  "returnUrl": "/storefront/ref=atv_sf_wl_tog_sign_in",
-                  "tag": "Add",
-                  "titleType": "season",
-                  "titleID": "0LTTRFTWMZXER0OFWQFGG2MFOT",
-                  "token": "g424VF7r+iaq69N4EsqIuB9H7E3hwxQMPa8z4oGSCqYXAAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ=="
-                }
-              },
-              "formatCode": "seas",
-              "tag": "Add",
-              "text": {
-                "attrs": {},
-                "string": "Añadir temporada a Mi lista"
-              }
-            }
-          },
-          {
-            "contentMaturityRating": {
               "rating": "13",
               "title": "(adolescentes)."
             },
@@ -683,7 +498,7 @@
               "canHover": false
             },
             "image": {
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_GO_BlackWidow_EEST/a24871a0-610d-462d-af6f-04e80e414168._UR1280,600_.jpeg"
+              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_GO_BlackWidow_EEST/a24871a0-610d-462d-af6f-04e80e414168._UR1280,600_.jpegçhttps://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_GO_BlackWidow_EEST/c12d2a9b-1b98-45ff-84c0-84819486ef63._UR3000,600_.jpeg"
             },
             "link": {
               "url": "/detail/0JCOQKKXJRU0LUJJ5ZLS54VERT/ref=atv_hm_hom_1_c_T5Cdfi_gN7YjI_1_11"
@@ -735,115 +550,6 @@
             "entitlements": [],
             "filterEntitled": false,
             "hasSubtitles": true,
-            "hoverInfo": {
-              "canHover": false
-            },
-            "image": {
-              "alternateText": "Ve The Act con STARZPLAY en Prime Video Channels.",
-              "url": "https://m.media-amazon.com/images/G/01/digital/video/sonata/ES_3P_Superhero_STARZPLAY_The_Act_SH/748e9d70-3496-44b2-907d-7c12dc21c29e._UR1280,600_.jpg"
-            },
-            "link": {
-              "url": "/detail/0OO4IZF1C1XWP34M9AANPWH7RT/ref=atv_hm_hom_1_c_T5Cdfi_esr6mu_1_12"
-            },
-            "messages": {
-              "infoboxes": [],
-              "offers": []
-            },
-            "properties": {},
-            "releaseYear": "2019",
-            "runtime": "53 min",
-            "synopsis": "La atenta madre Dee Dee Blanchard y su dulce hija Gypsy llegan a una nueva ciudad, donde Gypsy se siente sola por una miríada de problemas médicos y está deseando hacer amigos. Pero sus nuevos vecinos son algo entrometidos y Dee Dee y Gypsy tienen secretos que ocultar.",
-            "title": "La Maison du Bon Reve",
-            "titleID": "amzn1.dv.gti.a0b56962-c253-8e1b-72aa-c2d438615599",
-            "watchlistAction": {
-              "ajaxEnabled": true,
-              "endpoint": {
-                "partialURL": "/api/watchlistToggle/ref=atv_sf_wtls_add_ep",
-                "query": {
-                  "returnUrl": "/storefront/ref=atv_sf_wl_tog_sign_in",
-                  "tag": "Add",
-                  "titleType": "episode",
-                  "titleID": "0OO4IZF1C1XWP34M9AANPWH7RT",
-                  "token": "g4SE6vFrO5re5uE88jIJBW1APHup4bZilw9WwG/ZXnPdAAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ=="
-                }
-              },
-              "formatCode": "ep",
-              "tag": "Add",
-              "text": {
-                "attrs": {},
-                "string": "Añadir a Mi lista"
-              }
-            }
-          },
-          {
-            "contentMaturityRating": {
-              "rating": "18",
-              "title": "(Adultos)."
-            },
-            "entitlements": [],
-            "filterEntitled": false,
-            "hasSubtitles": true,
-            "hideThisAction": {
-              "endpoint": {
-                "partialURL": "/api/hideThis/ref=atv_exfb_ht_sf_hide_seas",
-                "query": {
-                  "tag": "Hide",
-                  "titleId": "amzn1.dv.gti.54bbb23a-e025-f9d2-e85b-dec8a2ae9988",
-                  "token": "g+cgmzZpP/cmOMszDmy088sIK8HyMzDTQgDUtFwkhm3AAAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ==",
-                  "titleType": "Season"
-                }
-              },
-              "hasTimer": false,
-              "tag": "Hide",
-              "text": "Ocultar esta temporada"
-            },
-            "hoverInfo": {
-              "canHover": false
-            },
-            "image": {
-              "alternateText": "Invincible - Temporada 1",
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_Hero_Invincible_S1_Evergreen/8dbb9ad5-1c7b-40f0-bcd7-95cb135e4ba0._UR1280,600_.jpg"
-            },
-            "link": {
-              "url": "/detail/0K677J96WQ96K6UY6BL15O70CO/ref=atv_hm_hom_1_c_T5Cdfi_q77SHs_1_13"
-            },
-            "messages": {
-              "infoboxes": [],
-              "offers": []
-            },
-            "properties": {},
-            "releaseYear": "2021",
-            "synopsis": "Cuando Mark Grayson hereda superpoderes con 17 años, se convierte en uno de los héroes más grandes de la Tierra junto con su padre. Todos sus sueños se hacen realidad... hasta que sucede algo que lo cambia todo.",
-            "title": "INVENCIBLE: TEMPORADA 1",
-            "titleID": "amzn1.dv.gti.54bbb23a-e025-f9d2-e85b-dec8a2ae9988",
-            "watchlistAction": {
-              "ajaxEnabled": true,
-              "endpoint": {
-                "partialURL": "/api/watchlistToggle/ref=atv_sf_wtls_add_seas",
-                "query": {
-                  "returnUrl": "/storefront/ref=atv_sf_wl_tog_sign_in",
-                  "tag": "Add",
-                  "titleType": "season",
-                  "titleID": "0K677J96WQ96K6UY6BL15O70CO",
-                  "token": "g0XgB6yEP7l8+49fsZx4adY3UJvDi5hGw/uQiKbMcQQiAAAAAQAAAABhITBVcmF3AAAAAPgWC9WfHH8iB+olH/E9xQ=="
-                }
-              },
-              "formatCode": "seas",
-              "tag": "Add",
-              "text": {
-                "attrs": {},
-                "string": "Añadir temporada a Mi lista"
-              }
-            }
-          },
-          {
-            "contentMaturityRating": {
-              "rating": "18",
-              "title": "(Adultos)."
-            },
-            "entitlements": [],
-            "filterEntitled": false,
-            "hasSubtitles": true,
             "hideThisAction": {
               "endpoint": {
                 "partialURL": "/api/hideThis/ref=atv_exfb_ht_sf_hide_mv",
@@ -862,7 +568,7 @@
               "canHover": false
             },
             "image": {
-              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_SI_PROMISINGYOUNGWOMAN_VOD/a6949fd0-b27b-46da-90ae-b35868fc1959._UR1280,600_.jpeg"
+              "url": "https://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_SI_PROMISINGYOUNGWOMAN_VOD/a6949fd0-b27b-46da-90ae-b35868fc1959._UR1280,600_.jpegçhttps://m.media-amazon.com/images/S/sonata-images-prod/ES_TVOD_SI_PROMISINGYOUNGWOMAN_VOD/75fe957c-af45-4da8-a96c-bf270fba4e82._UR3000,600_.jpeg"
             },
             "link": {
               "url": "/detail/0U1J5W6N5R7481RF6AUMOAHH9C/ref=atv_hm_hom_1_c_T5Cdfi_IYIrC7_1_14"

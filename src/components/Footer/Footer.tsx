@@ -1,9 +1,13 @@
 import styles from "./Footer.module.scss";
 import logo from "src/assets/svg/logo.svg";
+import {SwiperTypes} from "src/models/SwiperTypes";
+import {getSwiperSlidesForType} from "src/services/DataService"
 
+
+getSwiperSlidesForType(SwiperTypes.mediumSwiper);
 const Footer = () => (
   <div className={styles.Footer}>
-    <img src={logo} alt="descripcion" />
+    <img src={logo} alt="logo-pie" />
     <div className={styles.information}>
       <span>Términos y Aviso de privacidad</span>
       <div>

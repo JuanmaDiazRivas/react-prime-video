@@ -7,11 +7,6 @@
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
-  
-  .bigCarousel{
-    height: 27vh;
-    margin-bottom: 24px;
-  }
 
   .categories{
     width: 100%;
@@ -21,13 +16,7 @@
   .d-none{
     display: none;
   }
-  @media (min-width: $breakpoint-tablet) {
-    @import "app-tablet.scss";
-  }
 
-  @media (min-width: $breakpoint-desktop) {
-    @import "app-desktop.scss";
-  }
 }
 
 @font-face {

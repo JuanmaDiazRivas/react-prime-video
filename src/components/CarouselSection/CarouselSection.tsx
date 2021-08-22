@@ -1,38 +1,38 @@
 import styles from "./CarouselSection.module.scss";
 import primeBlue from "src/assets/img/media/primeBlue.png";
 import Carousel from "../Carousel/Carousel";
+import { SwiperData } from "src/models/SwiperData";
+import {PRIME} from "src/models/GlobalConstants";
 
 interface Props {
-  title?: string;
   slidesPerColumn?: number;
-  withPrime?: boolean;
-  action?: string;
+  data?: SwiperData;
 }
 const CarouselSection: React.FC<Props> = (props) => (
   <div className={styles.CarouselSection}>
     <div className={styles.carouselSectionHeader}>
       <img
-        alt="description"
+        alt='Con Prime'
         src={primeBlue}
-        className={props.withPrime ? styles.primeBlue : "d-none"}
+        className={props.data?.contentType === PRIME ? styles.primeBlue : "d-none"}
       />
       <div className={styles.sectionTitle}>
-        <h2 className={props.action === undefined ? styles.completeTitle : ""}>
-          {props.title ?? "Category"}
+        <h2 className={props.data?.seeMoreText ? '': styles.completeTitle}>
+          {props.data?.title ?? "Category"}
         </h2>
-        <span className={props.action === undefined ? "d-none" : ""}>
-          {props.action}
+        <span className={props.data?.seeMoreText ? '' : 'd-none'}>
+          {props.data?.seeMoreText}
         </span>
       </div>
     </div>
 
     <div className={styles.carouselWrapper}>
       <Carousel
-        withPrime={props.withPrime}
         slidesPerView={2}
         slidesPerColumn={props.slidesPerColumn ?? undefined}
         autoplay={false}
-        swiperMode={"mediumSwiper"}
+        data={props.data}
+        swiperMode={'mediumSwiper'}
       />
     </div>
   </div>

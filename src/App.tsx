@@ -1,22 +1,17 @@
 import "./App.scss";
 import Navbar from "src/components/Navbar/Navbar";
-import Carousel from "./components/Carousel/Carousel";
-import CarouselSection from "./components/CarouselSection/CarouselSection";
 import Footer from "./components/Footer/Footer";
+import ListCarouselMedium from "./components/ListCarouselMedium/ListCarouselMedium";
+import ListCarouselDouble from "./components/ListCarouselDouble/ListCarouselDouble";
+import BigCarousel from "./components/BigCarousel/BigCarousel";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="bigCarousel">
-        <Carousel slidesPerView={1} swiperMode={"bigSwiper"}/>
-      </div>
-      <div className="categories">
-        <CarouselSection withPrime={true} action={'Ver más'} title={"Amazon Originals y Exclusivos"}/>
-      </div>
-      <div className="categories">
-        <CarouselSection withPrime={true} slidesPerColumn={2} title={"Películas que pensamos que te gustarán"}/>
-      </div>
+      <BigCarousel />
+      <ListCarouselMedium />
+      <ListCarouselDouble />
       <Footer />
     </div>
   );

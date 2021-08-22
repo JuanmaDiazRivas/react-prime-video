@@ -5,7 +5,7 @@ import avatar from "src/assets/img/avatar.png";
 
 const Navbar = () => (
   <div className={styles.Navbar}>
-    <img src={logo} />
+    <img src={logo} alt="menu-logo"/>
     <div className={styles.menu}>
       <ul>
         <li>Inicio</li>
@@ -22,10 +22,10 @@ const Navbar = () => (
     </div>
 
     <div className={styles.search}>
-      <img src={searchIcon}></img>
+      <img src={searchIcon} alt="search"></img>
     </div>
     <div className={styles.user}>
-      <img className={styles.avatar} src={avatar} />
+      <img className={styles.avatar} src={avatar} alt="avatar" />
       <span className={styles.name}>Juan</span>
       <div className={styles.drop}></div>
     </div>

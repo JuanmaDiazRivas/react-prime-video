@@ -10,6 +10,10 @@ import "swiper/components/navigation/navigation.scss";
 import styles from "./Carousel.module.scss";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
+import { SwiperData } from "src/models/SwiperData";
+import { PRIME } from "src/models/GlobalConstants";
+import { SwiperTypes } from "src/models/SwiperTypes";
+import ImageResponsive from "../ImageResponsive/ImageResponsive";
 
 // install Swiper modules
 SwiperCore.use([Autoplay, Pagination, Navigation]);
@@ -19,10 +23,9 @@ interface Props {
   slidesPerColumn?: number;
   swiperMode?: string;
   autoplay?: boolean;
-  withPrime?: boolean;
+  data?: SwiperData;
 }
 
-//TODO sobreescribir la clase de la paginacion
 const Carousel: React.FC<Props> = (props) => (
   <div className={styles.Carousel}>
     <Swiper
@@ -48,34 +51,39 @@ const Carousel: React.FC<Props> = (props) => (
       breakpoints={{
         // when window width is <= 768px
         768: {
-          slidesPerView: props.swiperMode === 'bigSwiper' ? 1 : 2,
+          slidesPerView: props.swiperMode === "bigSwiper" ? 1 : 2,
         },
-        992: { 
-          slidesPerView: props.swiperMode === 'bigSwiper' ? 1 : 5
-        }
+        992: {
+          slidesPerView: props.swiperMode === 'bigSwiper' ? 1 : 5,
+        },
       }}
     >
-      {getSlides(props.withPrime)}
+      {getSlides(props.data)}
     </Swiper>
   </div>
 );
 
 export default Carousel;
 
-function getSlides(withPrime?: boolean) {
-  let swiperSlides = [];
-  for (let i = 1; i < 6; i++) {
-    swiperSlides.push(
-      <SwiperSlide>
-        <div className="swiperSlide">
-          <div className={withPrime ? styles.primeTag : ""}></div>
-          <img
-            alt="description"
-            src={require(`src/assets/img/carousel/carousel${i}.jpeg`).default}
-          />
-        </div>
-      </SwiperSlide>
-    );
+function getSlides(data: SwiperData | undefined) {
+  let swiperSlides: JSX.Element[] = [];
+  if (data) {
+    const primeTag = data.contentType === PRIME ? styles.primeTag : '';
+    data.images.forEach(imageData =>{
+      swiperSlides.push(
+        <SwiperSlide>
+          <div className="swiperSlide">
+            <div className={primeTag}></div>
+            {data.type === SwiperTypes.bigSwiper ? (
+              <ImageResponsive title={data.title} imagesUrl={imageData.url} />
+            ) : (
+              <img alt={data.title} src={imageData.url[0]} />
+            )}
+          </div>
+        </SwiperSlide>
+      );
+    })
+    
+    return swiperSlides;
   }
-  return swiperSlides;
 }
