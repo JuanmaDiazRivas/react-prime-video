@@ -1,6 +1,6 @@
 import styles from "./CarouselSection.module.scss";
 import primeBlue from "src/assets/img/media/primeBlue.png";
-import Carousel from "../Carousel/Carousel";
+import Carousel from "src/components/Carousel/Carousel";
 import { SwiperData } from "src/models/SwiperData";
 import {PRIME} from "src/models/GlobalConstants";
 

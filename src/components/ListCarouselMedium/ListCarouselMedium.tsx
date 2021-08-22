@@ -1,6 +1,6 @@
 import { SwiperTypes } from "src/models/SwiperTypes";
 import { getSwiperSlidesForType } from "src/services/DataService";
-import CarouselSection from "../CarouselSection/CarouselSection";
+import CarouselSection from "src/components/CarouselSection/CarouselSection";
 
 const ListCarouselMedium = () => {
   return (
