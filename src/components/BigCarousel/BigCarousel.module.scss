@@ -1,7 +1,6 @@
 @import "src/sass/variables";
 
 .BigCarousel {
-  height: 27vh;
   margin-bottom: 24px;
   @media (min-width: $breakpoint-tablet) {
     @import "BigCarousel-tablet.module.scss";

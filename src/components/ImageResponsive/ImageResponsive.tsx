@@ -9,7 +9,7 @@ const ImageResponsive: React.FC<Props> = (props) => {
     <img
       alt={props.title}
       src={imagesUrl[0]}
-      srcSet={`${imagesUrl[0]} 300w, ${imagesUrl[0]} 768w, ${imagesUrl[0]} 1280w, ${imagesUrl[1]} 3200w`}
+      srcSet={`${imagesUrl[0]} 320, ${imagesUrl[0]} 768w, ${imagesUrl[0]} 1280w, ${imagesUrl[1]} 3200w`}
     />
   );
 };

@@ -51,11 +51,17 @@ const Carousel: React.FC<Props> = (props) => (
       breakpoints={{
         // when window width is <= 768px
         768: {
-          slidesPerView: props.swiperMode === "bigSwiper" ? 1 : 2,
+          slidesPerView: props.swiperMode === "bigSwiper" ? 1 : 2
         },
         992: {
-          slidesPerView: props.swiperMode === 'bigSwiper' ? 1 : 5,
+          slidesPerView: props.swiperMode === 'bigSwiper' ? 1 : 3
         },
+        1025 : {
+          slidesPerView: props.swiperMode === 'bigSwiper' ? 1 : 4
+        },
+        1520 : {
+          slidesPerView: props.swiperMode === 'bigSwiper' ? 1 : 5
+        }
       }}
     >
       {getSlides(props.data)}
